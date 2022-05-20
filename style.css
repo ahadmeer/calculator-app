@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("img/415859da6c2caa9.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(180deg, #161616, #3f3f3f);
+  
+    
+    
+    
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:100px;
+    background: linear-gradient(180deg, #161616, #3f3f3f);
+    
+}
+.cover{
+    
+   
+   
+    height: 444px;
+    width:24%;
+    top: 8%;
+    left: 38%;
+    background: linear-gradient(180deg, #161616, #3f3f3f);
+    border-radius: 30px;
+    box-shadow: inset -8px 0 8px rgba(0, 0, 0, 0.15), inset 0 -8px 8px rgba(0, 0, 0, 0.25), 0 0 0 2px rgba(0, 0, 0, 0.75), 10px 20px 25px rgba(0, 0, 0, 0.4);
+    z-index: 1;
+   position:absolute;
+ 
+ transition: ease-in 36s;
+    
+} 
+
+.cover h1{
+    text-align: center;
+    padding:20px 20px;
+    color: #fff;
+}
+
+
+
+.cover:hover{
+    transition: ease-out 10s;
+transform: translateX(-220%);
+
+} 
+
+
+
+
+
+
+
+
+.input{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:200px;
+    height: 50px;
+    text-align:center;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.75);
+    border: none;
+    background: transparent;
+    background: linear-gradient(180deg, #2f2f2f, #3f3f3f);
+    box-shadow: inset -8px 0 8px rgba(0, 0, 0, 0.15), inset 0 -8px 8px rgba(0, 0, 0, 0.25), 0 0 0 2px rgba(0, 0, 0, 0.75), 10px 20px 25px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    transition-property: width;
+    transition-duration: 2s;
+    color: rgb(255, 254, 254);
+    
+    
+    
+    
+    
+}
+.input:hover{
+    background: linear-gradient(180deg, #c21c1c, #c55151);
+    width:385px;
+    height:60px;
+    cursor: pointer;
+   
+
+   
+   
+}
+
+.table{
+    width:20%;
+    height: 303px;
+    text-align: center;
+    
+  
+}
+tr td{
+   
+   width: 100px;
+   border-radius:20%;
+   color:white;
+   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.75);
+   box-shadow: inset -8px 0 8px rgba(0, 0, 0, 0.15), inset 0 -8px 8px rgba(0, 0, 0, 0.25), 0 0 0 2px rgba(0, 0, 0, 0.75), 10px 20px 25px rgba(0, 0, 0, 0.4);
+   background: linear-gradient(180deg, #2f2f2f, #3f3f3f);
+   color: #fff;
+   filter: brightness(1.5);
+   transition-duration: 1.5s;
+
+   
+  
+  
+  
+}
+tr td:hover{
+    transform: translate(-12px);
+    background: linear-gradient(180deg, #c21c1c, #c55151);
+    color: #0a0101;
+   
+    
+
+}
